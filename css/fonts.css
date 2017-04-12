@@ -7,7 +7,6 @@
     url('../fonts/OpenSansCondensed/OpenSansCondLightItalic/OpenSansCondLightItalic.ttf') format('truetype'),
     url('../fonts/OpenSansCondensed/OpenSansCondLightItalic/OpenSansCondLightItalic.svg#OpenSansCondLightItalic') format('svg');
     font-style: italic;
-    font-weight: lighter;
 }
 
 @font-face {
@@ -19,7 +18,6 @@
     url('../fonts/OpenSansCondensed/OpenSansCondBold/OpenSansCondBold.ttf') format('truetype'),
     url('../fonts/OpenSansCondensed/OpenSansCondBold/OpenSansCondBold.svg#OpenSansCondBold') format('svg');
     font-weight: bold;
-    font-style: normal;
 }
 
 @font-face {
@@ -31,5 +29,5 @@
     url('../fonts/OpenSansCondensed/OpenSansCondLight/OpenSansCondLight.ttf') format('truetype'),
     url('../fonts/OpenSansCondensed/OpenSansCondLight/OpenSansCondLight.svg#OpenSansCondLight') format('svg');
     font-style: normal;
-    font-weight: normal;
+    font-weight: 300;
 }
