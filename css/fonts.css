@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Open Sans Condsed';
+    font-family: 'Open Sans Condensed';
     src: url('../fonts/OpenSansCondensed/OpenSansCondLightItalic/OpenSansCondLightItalic.eot');
     src: url('../fonts/OpenSansCondensed/OpenSansCondLightItalic/OpenSansCondLightItalic.eot') format('embedded-opentype'),
     url('../fonts/OpenSansCondensed/OpenSansCondLightItalic/OpenSansCondLightItalic.woff2') format('woff2'),
@@ -10,7 +10,7 @@
 }
 
 @font-face {
-    font-family: 'Open Sans Condsed';
+    font-family: 'Open Sans Condensed';
     src: url('../fonts/OpenSansCondensed/OpenSansCondBold/OpenSansCondBold.eot');
     src: url('../fonts/OpenSansCondensed/OpenSansCondBold/OpenSansCondBold.eot') format('embedded-opentype'),
     url('../fonts/OpenSansCondensed/OpenSansCondBold/OpenSansCondBold.woff2') format('woff2'),
@@ -21,7 +21,7 @@
 }
 
 @font-face {
-    font-family: 'Open Sans Condsed';
+    font-family: 'Open Sans Condensed';
     src: url('../fonts/OpenSansCondensed/OpenSansCondLight/OpenSansCondLight.eot');
     src: url('../fonts/OpenSansCondensed/OpenSansCondLight/OpenSansCondLight.eot') format('embedded-opentype'),
     url('../fonts/OpenSansCondensed/OpenSansCondLight/OpenSansCondLight.woff2') format('woff2'),

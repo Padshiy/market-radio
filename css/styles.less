@@ -1,5 +1,5 @@
 .font-style {
-  font-family: 'Open Sans Condsed', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-weight: normal;
   font-style: normal;
 }
@@ -75,6 +75,7 @@ ul > li.active > a {
   justify-content: center;
   padding: 10px 35px;
   font-size: 16px;
+  margin: 10px 0;
 }
 
 .home__center {
@@ -188,6 +189,9 @@ ul > li.active > a {
 
 .contacts__form {
   position: relative;
+  width: 700px;
+  min-height: 185px;
+  margin: 0 auto;
   &_text {
     background-color: rgba(255, 255, 255, 1);
     font: normal normal normal 16px/1.4em 'open sans condensed',sans-serif;
@@ -212,6 +216,7 @@ ul > li.active > a {
     width: 100%;
     border-radius: 0;
     height: 114px;
+    resize: none;
   }
   &_btn {
     border: 0;
@@ -220,8 +225,12 @@ ul > li.active > a {
     background-color: rgba(33, 87, 121, 1);
     font: normal normal normal 16px/1.4em 'open sans condensed',sans-serif;
     padding: 5px;
-    position: absolute;
-    top: 0;
+    position: relative;
+    float: right;
+    right: 25px;
+    bottom: 0;
+    font-size: 16px;
+    font-weight: 300;
   }
 }
 
@@ -236,12 +245,17 @@ ul > li.active > a {
     width: 175px;
     height: 75px;
     object-fit: cover;
+    margin: 0 auto;
   }
   &__text {
-
+    display: block;
+    font-size: 16px;
+    margin: 20px 0;
   }
   &__link {
-    margin: 0 auto;
+    margin: 20px auto;
+    font-size: 16px;
+    display: block;
   }
 }
 //footer
@@ -283,4 +297,123 @@ ul > li.active > a {
 
 .social__fb{
   background: url("../images/fb.png");
+}
+
+//about page
+.about__page {
+  text-align: center;
+  margin-bottom: 50px;
+  line-height: 1;
+}
+.about__main_text {
+  font-size: 60px;
+  margin-top: 10%;
+  text-align: center;
+  color: #215779;
+}
+.about__main__border {
+  border-bottom: 11px solid #215779;
+  width: 10%;
+  margin: 0 auto;
+}
+.about__info__blocks {
+  margin-top: 100px;
+}
+.about__info__block1 {
+  margin: 0 15%;
+}
+.about__info__block2 {
+  margin: 0 10%;
+}
+.about__button {
+  width: 250px;
+  background: #215779;
+  color: #379DDB;
+  transition: 0.5s;
+  height: 45px;
+  border-radius: 0;
+}
+.about__button:hover {
+  background: #102B3C;
+  transition: 0.5s;
+}
+.about__info__text {
+  margin: 50px 0;
+}
+
+//services page
+.services__page {
+  margin-bottom:50px;
+  line-height: 1;
+}
+.services__main_text {
+  font-size: 60px;
+  margin-top: 10%;
+  text-align: center;
+  color: #215779;
+}
+.services__main__border {
+  border-bottom: 11px solid #215779;
+  width: 10%;
+  margin: 0 auto;
+}
+.services__info__blocks {
+  margin: 50px auto;
+  text-align: center;
+}
+.servicess__info__block__lower {
+  margin-top: 50px;
+}
+.services__img {
+  width:55%;
+}
+.services__button {
+  width: 320px;
+  background: #215779;
+  color: #379DDB;
+  transition: 0.5s;
+  height: 45px;
+  border-radius: 0;
+}
+.services__button:hover {
+  background: #102B3C;
+  transition: 0.5s;
+}
+.sercives__audio {
+  margin: 25px 0;
+}
+
+//services page
+
+.sign__page {
+  color: #605C5E;
+  line-height: 1;
+}
+.sign__main_text {
+  font-size: 60px;
+  margin-top: 10%;
+  color: #215779;
+}
+.sign__form2, .sign__form1 {
+  margin-top: 70px;
+}
+.sign__form__style {
+  background-color: #AED1E6;
+  border-radius: 0;
+  width:50%;
+}
+.sign__form__text {
+  font-weight: normal;
+}
+.sign__button {
+  width: 250px;
+  background: #215779;
+  color: #379DDB;
+  transition: 0.5s;
+  height: 45px;
+  border-radius: 0;
+}
+.sign__button:hover {
+  background: #102B3C;
+  transition: 0.5s;
 }
