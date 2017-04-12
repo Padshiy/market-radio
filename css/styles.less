@@ -51,6 +51,7 @@ ul > li.active > a {
 //home page
 
 .home__header {
+  min-height: 720px;
   background-color: rgba(0, 0, 0, 1);
   display: block;
   &_title {
@@ -60,17 +61,188 @@ ul > li.active > a {
     font-weight: normal;
     font-style: normal;
   }
+  &_text {
+    position: relative;
+    margin-top: 25%;
+  }
 }
 
 .home__btn {
-  width: 135px;
-  height: 37px;
-  background-color: rgba(33, 87, 121, 1);
-  border: solid rgba(0, 0, 0, 1) 0;
+  background-color: #215779;
+  border: solid #000000 0;
   color: #83B1CE;
   border-radius: 0;
   justify-content: center;
-  font-size: 10px;
+  padding: 10px 35px;
+  font-size: 16px;
+}
+
+.home__center {
+  min-height: 720px;
+  background-color: transparent;
+  display: block;
+}
+
+.home__center_portfolio {
+  position: relative;
+  margin-top: 145px;
+}
+.home__center_title {
+  display: block;
+  line-height: 28px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.home__center_name {
+  display: block;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  font-size: 20px;
+
+}
+
+.home__center_text {
+  display: block;
+  line-height: 28px;
+  text-align: center;
+  font-size: 16px;
+  margin: 40px 0;
+}
+
+.home__center > .container > div {
+  min-height: 720px;
+  position: relative;
+  text-align: center;
+}
+
+.home__center_img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.home__about {
+  display: block;
+  width: 100%;
+  height: 720px;
+  background: url("../images/bg-forefathers.jpg");
+  &_title {
+    color: #fff;
+    font-size: 100px;
+    font-weight: normal;
+    position: relative;
+    width: 50%;
+    text-align: center;
+    margin: 60px auto 100px;
+    &:after {
+      content: "";
+      width: 105px;
+      height: 10px;
+      display: block;
+      position: absolute;
+      background-color: rgb(33, 87, 121);
+      left: 40%;
+    }
+  }
+  &_text {
+    color: rgb(149, 149, 150);
+    font-size: 22px;
+    text-align: center;
+    span {
+      display: block;
+      margin: 20px 0;
+    }
+  }
+}
+
+.home__contacts {
+  display: block;
+  min-height: 720px;
+  &_title {
+    color: rgb(33, 87, 121);
+    font-size: 100px;
+    font-weight: normal;
+    position: relative;
+    width: 50%;
+    text-align: center;
+    margin: 60px auto 100px;
+    &:after {
+      content: "";
+      width: 105px;
+      height: 10px;
+      display: block;
+      position: absolute;
+      background-color: rgb(33, 87, 121);
+      left: 40%;
+    }
+  }
+  &_form {
+    display: block;
+  }
+  &_contact {
+
+  }
+}
+
+.contacts__form {
+  position: relative;
+  &_text {
+    background-color: rgba(255, 255, 255, 1);
+    font: normal normal normal 16px/1.4em 'open sans condensed',sans-serif;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid rgba(33, 87, 121, 1);
+    color: #215779;
+    margin: 0 0 5px;
+    padding: 5px;
+    width: 100%;
+    border-radius: 0;
+  }
+  &_textarea {
+    background-color: rgba(255, 255, 255, 1);
+    font: normal normal normal 16px/1.4em 'open sans condensed',sans-serif;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid rgba(33, 87, 121, 1);
+    color: #215779;
+    margin: 0 0 5px;
+    padding: 5px;
+    width: 100%;
+    border-radius: 0;
+    height: 114px;
+  }
+  &_btn {
+    border: 0;
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: rgba(33, 87, 121, 1);
+    font: normal normal normal 16px/1.4em 'open sans condensed',sans-serif;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+  }
+}
+
+.contact {
+  text-align: center;
+  &__img {
+
+  }
+  &__link_market-radio {
+    background: url("../images/logo-contact.png");
+    display: block;
+    width: 175px;
+    height: 75px;
+    object-fit: cover;
+  }
+  &__text {
+
+  }
+  &__link {
+    margin: 0 auto;
+  }
 }
 //footer
 
